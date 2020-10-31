@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>In&Di-Portafolio</title>
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
+        rel="stylesheet">
+    <!-- Plugins Stylesheets -->
+    <link rel="stylesheet" href="assets/css/loader/loaders.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/aos/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper/swiper.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="assets/css/portafolio.css">
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+      <link rel="stylesheet" href="./style2.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="assets/js/validacion.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/b41c62838c.js" crossorigin="anonymous"></script>
+<body>
+ <div class="css-loader">
+        <div class="loader-inner line-scale d-flex align-items-center justify-content-center"></div>
+    </div>
+    <!-- Loader End -->
+    <!-- Header Start -->
+    <header class="position-absolute w-100">
+        <div class="container">
+  
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="index.html"><div data-aos="flip-left" data-aos-duration="2000"><img src="assets/images/in&di.png" alt="Multipurpose"></div></a>
+                <div class="group d-flex align-items-center">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon"></span></button>
+                    <a class="login-icon d-sm-none" href="#"><i class="fa fa-user"></i></a>
+                    
+                </div>
+                <a class="search-icon d-none d-md-block" href="#"><i class="fa fa-search"></i></a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="file:///C:/Users/ADMIN/Desktop/In&Di/index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="file:///C:/Users/ADMIN/Desktop/In&Di/acerca-de.html">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link" href="file:///C:/Users/ADMIN/Desktop/In&Di/portafolio.html">Portafolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="file:///C:/Users/ADMIN/Desktop/In&Di/contactanos.html">Contáctanos</a></li>
+                    </ul>
+                    <form class="bg-white search-form" method="get" id="searchform">
+                        <div class="input-group">
+                            <input class="field form-control" id="s" name="s" type="text" placeholder="Search">
+                            <span class="input-group-btn">
+                                <input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
+                                    value="Search">
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+     <div id="contenedor-form">
+    <div class="contactanos">
+   <h2>Contáctanos</h2>
+   </div>
+    <form action="#" method="post" onsubmit="return validar()">
+   <p class="nombre">
+   <input type="text" class="input" placeholder="Nombre" id="nombre" name="nombre" onblur="revisar(this)" onkeyup="revisar(this)" autocomplete="off" required>
+   </p>
+   <p class="email">
+   <input type="text" class="input" placeholder="Email" id="email" name="email" onblur="revisar(this); revisarEmail(this)" onkeyup="revisar(this); revisarEmail(this)" autocomplete="off" required>
+   </p>
+   <p class="mensaje">
+   <textarea class="input" placeholder="Mensaje" id="mensaje" name="mensaje" onblur="revisar(this); revisaLongitud(this,30)" onkeyup="revisar(this); revisaLongitud(this,30)" autocomplete="off" required></textarea>
+   </p>
+   <div class="enviar">
+      <a href="#"> <input type="submit" value="ENVIAR" id="enviar"/></a>
+      <div class="transicion"></div>
+   </div>
+   </form>
+  </div>
+  </div>
+
+<br></br>
+        <!-- Widgets End -->
+        <!-- Foot Note Start -->
+        <div class="foot-note">
+            <div class="container">
+                <div
+                    class="footer-content text-center text-lg-left d-lg-flex justify-content-between align-items-center">
+                    <p class="mb-0" data-aos="fade-right" data-aos-offset="0"><center> &copy; 2020 Copyright Diseñado por Daryi </center></p>
+                </div>
+            </div>
+        </div>
+        <!-- Foot Note End -->
+
+  <script src="assets/js/jquery-3.3.1.js"></script>
+    <!--Plugins-->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/loaders.css.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/lightgallery-all.min.js"></script>
+    <!--Template Script-->
+    <script src="assets/js/main.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>

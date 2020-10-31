@@ -1,0 +1,507 @@
+header {
+  background-color: rgba(90, 90, 90);
+  color: #fff;
+  z-index: 1000;
+}
+
+header a {
+  color: #fff;
+}
+
+header::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.02);
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+.nav-link {
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+}
+
+.contact {
+  font-size: 12px;
+}
+
+.tel {
+  margin-right: 30px;
+}
+
+.contact i {
+  color: #ee1515;
+  margin-right: 10px;
+}
+
+.login {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.contact a:hover,
+.login:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.login i {
+  color: #ee1515;
+  margin-right: 8px;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+}
+
+.social {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.social a {
+  font-size: 14px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ee1515;
+  border-radius: 4px;
+  line-height: 40px;
+  text-align: center;
+  background-color: transparent;
+  transition: all 0.25s ease-in-out;
+}
+
+.social a:hover {
+  color: #fff;
+  background-color: #ee1515;
+}
+
+.navbar-brand img {
+  width: 135px;
+}
+
+.navbar-collapse .search-form input[type="text"] {
+  border: 1px solid #ced4da;
+  color: #333;
+  padding: 1.5625rem 0.625rem;
+}
+
+.navbar-collapse .search-form .btn {
+  margin-top: 0;
+  border-radius: 0;
+  margin-left: -1px;
+}
+
+.navbar-collapse .nav-link {
+  font-size: 1.125rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-collapse .nav-link:hover {
+  color: #ee1515;
+}
+/* Portfolio Section
+--------------------------------*/
+#portfolio {
+  padding: 160px 0;
+}
+
+#portfolio #portfolio-flters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#portfolio #portfolio-flters li {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+  background: #ee1515;
+  color: #fff;
+}
+
+#portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+#portfolio .portfolio-wrap {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+#portfolio .portfolio-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+
+#portfolio .portfolio-item {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+
+#portfolio .portfolio-item figure {
+  background: #000;
+  overflow: hidden;
+  height: 240px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+
+#portfolio .portfolio-item figure:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+#portfolio .portfolio-item figure .link-preview, #portfolio .portfolio-item figure .link-details {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.2s linear;
+}
+
+#portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
+  padding-top: 6px;
+  font-size: 22px;
+  color: #333;
+}
+
+#portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
+  background: #18d26e;
+}
+
+#portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
+  color: #fff;
+}
+
+#portfolio .portfolio-item figure .link-preview {
+  left: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+#portfolio .portfolio-item figure .link-details {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+#portfolio .portfolio-item figure:hover .link-preview {
+  opacity: 1;
+  left: calc(50% - 44px);
+}
+
+#portfolio .portfolio-item figure:hover .link-details {
+  opacity: 1;
+  right: calc(50% - 44px);
+}
+
+#portfolio .portfolio-item .portfolio-info {
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+  height: 90px;
+  border-radius: 0 0 3px 3px;
+}
+
+#portfolio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  line-height: 1px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding-bottom: 0;
+}
+
+#portfolio .portfolio-item .portfolio-info h4 a {
+  color: #333;
+}
+
+#portfolio .portfolio-item .portfolio-info h4 a:hover {
+  color: #18d26e;
+}
+
+#portfolio .portfolio-item .portfolio-info p {
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Portfolio Details
+--------------------------------*/
+
+.portfolio-details {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-details-container {
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-dot.active {
+  background-color: #18d26e !important;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 50px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  width: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0 0 0 0;
+}
+/*-----------------------------------
+    1 - Footer Widgets
+------------------------------------*/
+.contactanos h2{ 
+  color:#fff;
+  text-align: center;
+  line-height: 10px;/*altura en la vertical*/
+  padding-bottom: 20px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+#contenedor-form{
+  width: 450px;/*ancho de caja del contenedor*/
+  height: 500px;/*altura caja negra*/
+  background-color: rgba(0,0,0);/*color de relleno de caja gradación*/
+  opacity: 0.8;/*opacidad*/
+  padding: 35px 45px 35px 50px;/*espacio entre input y la caja del contenedor*/
+  margin:auto;/*centra los input*/
+  border-radius: 9px;/*bordes redondeados de la caja*/
+}
+.input{
+  font-family: "Rajdhani", sans-serif;
+  font-size: 15px;
+  color:#3c3c3c;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;/*mantiene la proporcion de ancho de caja asi se incluyan bordes*/
+  border-radius: 9px;
+}
+/*permite cambiar el estilo (color de texto y border) cuando estamos generando el diligenciamiento de los input*/
+.input:focus{
+  background-color: #fff;
+  border:3px solid #1b8f31;
+  padding: 13px 13px 13px 54px;
+  color:#1b8f31;
+}
+#nombre{
+  background-image: url(../images/usuario.png);
+  background-size: 30px 30px;
+  background-position: 11px 11px;
+  background-repeat: no-repeat;
+}
+#email{
+  background-image: url(../images/email.png);
+  background-size: 30px 30px;
+  background-position: 11px 11px;
+  background-repeat: no-repeat;
+}
+#mensaje{
+  background-image: url(../images/mensaje.png);
+  background-size: 30px 30px;
+  background-position: 11px 11px;
+  background-repeat: no-repeat;
+}
+textarea{
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  resize: vertical;
+}
+#enviar{
+  font-family: "Rajdhani", sans-serif;
+  float: left;
+  width: 100%;
+  border: 4px solid #fff;
+  cursor:pointer;/*cursor de botón*/
+  background-color: #00a0f4;
+  font-size: 20px;
+  color:#fff;
+  font-weight: bold;/*negrita*/
+  padding-top: 10px;
+  transition: 0,8s;
+}
+#enviar:hover{
+  background-color: rgba(0,0,0,0);
+  color:#fff;
+}
+.transicion{
+  width: 0px;
+  height: 40px;
+  background-color: #ee1515;
+  transition: 0.8s ease;
+  color:#fff;
+  -webkit- transition: all 5s ease;
+}
+.enviar:hover .transicion{
+  width: 100%;
+  background-color: #ee1515;
+  color:#fff;
+}
+/*estilos a la caja input y textarea para cuando se marque error en la digitación del campo*/
+input.error , textarea.error{
+  font-family: "Rajdhani", sans-serif;
+  font-size: 15px;
+  color:#3c3c3c;
+  line-height: 22px;
+  background-color: #FFC3C3;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 9px;
+}
+/*colocamos el color del plaholder de color blanco una vez el usuario 
+inicia la digitación del campo*/
+input.error::-webkit-input-placeholder{
+  color:#000;
+}
+textarea.error::-webkit-input-placeholder{
+  color:#000;
+}
+/*permite adecuar la previsualización del formulario a una resolución de 500 px, 
+ajustando el ancho del contenedor-form a 88%*/
+@media only screen and (max-width: 500px;){
+  #contenedor-form{
+    left:3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+.footer-widgets h2{
+  margin-left: 515px;
+  color: #000;
+}
+/*-----------------------------------
+    1 - Foot Note
+------------------------------------*/
+.foot-note {
+  padding: 35px 0;
+  background-color: #ee1515;
+  color: #000000;
+}
+
+.foot-note a {
+  color: #000000;
+}
+
+.foot-note a:last-child {
+  margin-left: 30px;
+}
+
+.foot-note a.fh5-link {
+  margin-left: 0;
+}
+
+/*permite adecuar la previsualización del formulario a una resolución de 500 px, 
+ajustando el ancho del contenedor-form a 88%*/
+@media only screen and (max-width: 500px;){
+  #contenedor-form{
+    left:3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-description h2 {
+    width: 100%;
+  }
+  .portfolio-details .portfolio-info {
+    position: static;
+    margin-top: 30px;
+  }
+}
