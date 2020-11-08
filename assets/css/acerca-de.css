@@ -87,7 +87,6 @@ div.noticia img.derecha {
     width:700px;
     height:530px;
     margin-top:20px;
-    border:1px solid #000;
     background-color:#343434;
     
     
@@ -97,11 +96,9 @@ div.noticia img.derecha {
     position:static;
     display:inline-block;
     text-decoration:none;
-    margin-top:50px;
     margin-left:610px;
     width:700px;
     height:500px;
-    border:1px solid #000;
     background-color:#343434;
     color:#ffffff;
   }
@@ -126,7 +123,7 @@ div.noticia img.derecha {
 
 li{
   font-family: "Rajdhani", sans-serif;
-  font-size: 2em;
+  font-size: 40px;
   color: #000;
 }
 

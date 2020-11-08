@@ -205,7 +205,7 @@ div.noticia img.derecha {
   .boton1{
   width:190px;
   height:190px;
-  margin-top:60px;
+  margin-top:50px;
   margin-left: 200px;
   background:url("../images/audiovisual.png") no-repeat center;
   -webkit-border-radius: 50px;
@@ -235,7 +235,7 @@ div.noticia img.derecha {
 .boton2{
   width:190px;
   height:190px;
-  margin-top:75px;
+  margin-top:70px;
   margin-left: 200px;
   background:url("../images/fotografia.png") no-repeat center;
   -webkit-border-radius: 50px;
@@ -276,7 +276,7 @@ div.noticia img.derecha {
  .boton3{
   width:190px;
   height:190px;
-  margin-top:70px;
+  margin-top:60px;
   margin-left: 250px;
   background:url("../images/grafico.png") no-repeat center;
   -webkit-border-radius: 50px;
@@ -297,7 +297,7 @@ div.noticia img.derecha {
 .boton4{
   width:190px;
   height:190px;
-  margin-top:85px;
+  margin-top:80px;
   margin-left: 250px;
   background:url("../images/web.png") no-repeat center;
   -webkit-border-radius: 50px;
@@ -518,6 +518,15 @@ div.noticia img.derecha {
   font-size: 35px;
 }
 
+h1{
+  text-align: center;
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.7em;
+    font-family: "Rajdhani", sans-serif;
+  margin-bottom: 15px;
+}
 
 
 .title .title-primary {
